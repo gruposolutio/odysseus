@@ -7,3 +7,9 @@ search:
   formats:
     - html
     - json
+  default_doi_resolver: 'oadoi.org'
+  doi_resolvers:
+    oadoi.org: 'https://oadoi.org/'
+    doi.org: 'https://doi.org/'
+    doai.io: 'https://dissem.in/'
+    sci-hub.se: 'https://sci-hub.se/'
